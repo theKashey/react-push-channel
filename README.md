@@ -6,7 +6,7 @@
 
 [![NPM](https://nodei.co/npm/react-push-channel.png?downloads=true&stars=true)](https://nodei.co/npm/react-push-channel/) 
 
-Context is to drill information down. React Push Channel to report back
+Context is to drill props down. React Push Channel drill props up.
 
 # API
 #### `createChannel(initialValue, reducer?, initialValueForReducer?)`

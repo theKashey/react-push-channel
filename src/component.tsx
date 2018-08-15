@@ -51,8 +51,6 @@ export function createChannel<T extends object, K = T>
     update(newValues?: T[]) {
       const values = newValues || this.values;
 
-      console.log(values);
-
       const topValue = this.props.merge
         ? values.reduce((reducer || mergeReducer) as any, initial === undefined ? {} as T : initial)
         : values[values.length - 1] as any;
