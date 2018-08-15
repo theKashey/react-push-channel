@@ -1,0 +1,41 @@
+{
+  "name": "react-push-channel",
+  "version": "0.0.1",
+  "description": "React Context from reverse.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "ts-react-toolbox test",
+    "bootstrap": "ts-react-toolbox init",
+    "dev": "ts-react-toolbox dev",
+    "test:ci": "ts-react-toolbox test --runInBand --coverage",
+    "build": "ts-react-toolbox build",
+    "release": "ts-react-toolbox release",
+    "lint": "ts-react-toolbox lint",
+    "static": "ts-react-toolbox publish",
+    "format": "ts-react-toolbox format",
+    "analyze": "ts-react-toolbox analyze"
+  },
+  "keywords": [
+    "react",
+    "context",
+    "channel",
+    "helmet",
+    "event"
+  ],
+  "homepage": "https://github.com/theKashey/react-push-channel#readme",
+  "author": "Anton Korzunov (thekashey@gmail.co)",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-react-toolbox": "^0.1.16"
+  },
+  "engines": {
+    "node": ">=8.5.0"
+  },
+  "peerDependencies": {
+    "react": "^16.3.0"
+  },
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ]
+}
