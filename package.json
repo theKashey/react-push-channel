@@ -1,6 +1,6 @@
 {
   "name": "react-push-channel",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React Context from reverse.",
   "main": "dist/index.js",
   "scripts": {
