@@ -19,7 +19,7 @@ createChannel return an object with 3 fields:
     - `[merge]` - enabled reducer on data. Ie merges everything into a single value. Otherwise would return last value.
  - `Push` - put message into the channel
     - any props from initialValue
- - `Pop` - react the current active message      
+ - `Pop` - read the current active message. Pop __doesn't remove the message__(ie "pops"). Only `Push` component unmount removes it.
 
 ## Use as React-helmet?
 
@@ -61,8 +61,9 @@ const Lock = createChannel({}, acc => acc + 1, 0);
 <Lock.Collector merge callback={locked => this.setState({locked: !!locked})}>
   <Lock.Push />
   <Lock.Pop>{locked => <span> is {locked?'locked':'unlocked'}</Lock.Pop>
+  // ^^ would be 1 and `locked`
 </Lock.Collector>  
-
+```
 
 # Licence
  MIT
