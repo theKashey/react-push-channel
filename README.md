@@ -1,5 +1,4 @@
 # react-push-channel 
-[![Build Status](https://travis-ci.org/theKashey/react-push-channel.svg?branch=master)](https://travis-ci.org/theKashey/react-push-channel)
 [![Greenkeeper badge](https://badges.greenkeeper.io/theKashey/react-push-channel.svg)](https://greenkeeper.io/)
 
 ----
