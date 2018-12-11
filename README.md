@@ -1,5 +1,5 @@
 # react-push-channel 
-[![CircleCI status](https://img.shields.io/circleci/project/github/theKashey/react-push-channel/master.svg?style=flat-square)](https://circleci.com/gh/theKashey/react-push-channel/tree/master)
+[![Build Status](https://travis-ci.org/theKashey/react-push-channel.svg?branch=master)](https://travis-ci.org/theKashey/react-push-channel)
 [![Greenkeeper badge](https://badges.greenkeeper.io/theKashey/react-push-channel.svg)](https://greenkeeper.io/)
 
 ----
