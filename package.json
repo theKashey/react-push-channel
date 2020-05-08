@@ -27,7 +27,7 @@
   "author": "Anton Korzunov (thekashey@gmail.co)",
   "license": "MIT",
   "devDependencies": {
-    "ts-react-toolbox": "^0.1.16"
+    "ts-react-toolbox": "^0.2.20"
   },
   "engines": {
     "node": ">=8.5.0"
